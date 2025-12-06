@@ -39,10 +39,8 @@ Asegúrate de tener instalado lo siguiente:
 Abre tu terminal (o Git Bash) y ejecuta el siguiente comando para descargar los archivos desde GitHub:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/Frontend-021-1/m3l5-bootstrap-sass.git
 ```
-
-_(Reemplaza `<URL_DEL_REPOSITORIO>` con el enlace real de este repositorio)_.
 
 Luego, entra a la carpeta del proyecto:
 
