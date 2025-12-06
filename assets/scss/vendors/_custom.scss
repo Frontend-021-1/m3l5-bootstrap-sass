@@ -1,0 +1,17 @@
+@use '../abstracts/variables';
+// _Custom.scss
+
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won’t be available)
+$primary: variables.$primary-green;
+
+@import '../../../node_modules/bootstrap/scss/functions';
+@import '../../../node_modules/bootstrap/scss/variables';
+
+// Añadir $mis-colores al theme-colors map de bootstrap
+$theme-colors: map-merge($theme-colors, variables.$mis-colores);
+
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+// Then add additional custom code here

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jugando con Bootstrap - Sass</title>
+
+    <!-- Mi css -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <!-- Bootstrap JS -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Mi JS -->
+    <script defer src="./assets/js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bootstrap y Sass</a>
+        </div>
+      </nav>
+    </header>
+    <main class="container mt-4">
+      <div class="row">
+        <article class="col-12 col-md-8">
+          <h2>Título del artículo</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            architecto quod repudiandae tempora ab sint similique explicabo
+            perspiciatis consequuntur cum quo eveniet amet nulla doloremque
+            ipsa, modi assumenda, hic nihil.
+          </p>
+        </article>
+        <aside class="col-12 col-md-4">
+          <h3>Título del aside</h3>
+          <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+          </ul>
+        </aside>
+      </div>
+
+      <!-- Seccion con botones de color personalizado -->
+      <section>
+        <button class="btn btn-primary">Botón modificado</button>
+        <button class="btn btn-royalgreen">Royalgreen</button>
+        <button class="btn btn-royalred">Royalred</button>
+        <button
+          type="button"
+          class="btn btn-secondary"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          data-bs-title="Tooltip on top"
+        >
+          Tooltip on top
+        </button>
+      </section>
+    </main>
+
+    <div class="row mt-4">
+      <footer class="col-12 p-4 bg-royalred text-white text-center">
+        <p class="m-0">Footer de nuestra página</p>
+      </footer>
+    </div>
+  </body>
+</html>
